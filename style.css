@@ -13,17 +13,28 @@ body {
     padding: 0px;
 }
 
-.logo img{
-    width: 130px;
-    height: 130px;
+.logo{
+    display: inline-block;
+    color:#00a78e;
+    font-family: 'Montserrat';
+    font-size:18px;
+    text-align: left;
 }
 
-.home {
+.cabecalho {
+    display: inline-block;
+    text-align: right;
+    height: 85px;
+}
+
+.paginas {
+    display: inline-block;
     font-size:18px;
+    width: 1250px;
+    text-align: right;
 }
 
 .container { 
-    width: 1299px;
     padding-top: 43px;
     padding-left: 124px;
 }
