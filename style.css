@@ -13,15 +13,25 @@ body {
     padding: 0px;
 }
 
-.logo{
+.logotipo img {
+    margin:0;
+    padding:0;
+}
+
+.logotipo{
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+    margin-right: 530px;
+}
+
+/*.logotipo {
     display: inline-block;
     text-align: left;
     margin-right: 530px;
     margin-top: 30px;
-    color:#00a78e;
-    font-family: 'Montserrat';
-    font-size: 18px;
-}
+    width: 100px;
+}*/
 
 .cabecalho {
     display: inline-block;
@@ -76,13 +86,11 @@ body {
     height: 617px;
 }
 
-/*.fundo {
-    background-color: #00a78e;
-    background-position: 500px;
-    border-top-left-radius: 105em;
+.fundo {
+    background-image: url(Página\ 1.svg);
+    background-size: 1520px;
     position: relative;
-    width: 850px;
-}*/
+}
 
 .nome{
     font-weight: 900;
@@ -146,9 +154,9 @@ figure {
 .foto {
     display: inline-block;
     position: relative;
-    left: 870px;
-    top: -228px;
-    width: 370px;
+    left: 710px;
+    top: -195px;
+    width: 350px;
 }
 
 /*img {
