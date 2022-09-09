@@ -15,23 +15,57 @@ body {
 
 .logo{
     display: inline-block;
+    text-align: left;
+    margin-right: 530px;
+    margin-top: 30px;
     color:#00a78e;
     font-family: 'Montserrat';
-    font-size:18px;
-    text-align: left;
+    font-size: 18px;
 }
 
 .cabecalho {
     display: inline-block;
     text-align: right;
+    font-family: 'Montserrat';
+    font-size:16px;
     height: 85px;
+    width: 1450px;
 }
 
-.paginas {
+.experiencias {
     display: inline-block;
-    font-size:18px;
-    width: 1250px;
     text-align: right;
+    margin-left: 15px;
+}
+
+.precos {
+    display: inline-block;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.portfolio {
+    display: inline-block;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.servicos {
+    display: inline-block;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.eu {
+    display: inline-block;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.home {
+    display: inline-block;
+    text-align: right;
+    margin-left: 15px;
 }
 
 .container { 
