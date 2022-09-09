@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    height: auto;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo img{
+    width: 130px;
+    height: 130px;
+}
+
+.home {
+    font-size:18px;
+}
+
+.container { 
+    width: 1299px;
+    padding-top: 43px;
+    padding-left: 124px;
+}
+
+.fundo {
+    background-color: #00a78e;
+    background-position: 500px;
+    border-top-left-radius: 105em;
+    position: relative;
+    width: 850px;
+}
+
+.nome{
+    font-weight: 900;
+    color: #293651;
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00a78e;
+    border: 0px; 
+    border-radius: 3px;
+    height: 34px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-bottom: 13px;
+}
+
+.button:hover{
+    background-color: #29dec2;
+}
+
+.ola {
+    font-weight: 500;
+    color: #07a78e;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+.qualificacoes {
+    color: #293651;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.paragrafo {
+    color: #272727;
+    font-size: 18px;
+    line-height:22px;
+    padding-top: 20px;
+    padding-bottom: 11px;
+    padding-right: 95px;
+    /*word-spacing: 1px;*/
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+figure {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+/*img {
+    display: inline-block;
+    margin-left: 830px;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 280px;
+}*/
