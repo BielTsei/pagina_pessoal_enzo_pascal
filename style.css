@@ -45,37 +45,37 @@ body {
 .experiencias {
     display: inline-block;
     text-align: right;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .precos {
     display: inline-block;
     text-align: right;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .portfolio {
     display: inline-block;
     text-align: right;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .servicos {
     display: inline-block;
     text-align: right;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .eu {
     display: inline-block;
     text-align: right;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .home {
     display: inline-block;
     text-align: right;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .container { 
@@ -159,12 +159,29 @@ figure {
     width: 350px;
 }
 
-/*img {
+.title_projetos{
+    /*display:inline-block;*/
+    width: 180px;
+    font-size: 38px;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.projetos {
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+    margin-left:124px;
+    margin:0;
+    text-align:center;
+}
+
+.studio_digital {
+    margin-left:124px;
     display: inline-block;
-    position: relative;
-    top: 0px;
-    margin-left: 830px;
-    margin-right: auto;
-    margin-top: 10px;
-    width: 280px;
-}*/
+    border: black solid;
+    width: 450px;
+    height: 250px;
+    text-align: center;
+}
