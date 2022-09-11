@@ -163,25 +163,41 @@ figure {
     /*display:inline-block;*/
     width: 180px;
     font-size: 38px;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     text-align: center;
     margin-right: 0px;
+    margin-left: 81px;
 }
 
-.projetos {
-    font-size: 22px;
+.text_projetos {
+    font-size: 20px;
     letter-spacing: 1.5px;
     word-spacing: 2.5px;
     margin-left:124px;
     margin:0;
     text-align:center;
 }
+.title {
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
 
-.studio_digital {
-    margin-left:124px;
+.box_projetos {
+    font-size: 18px;
+    margin-right:85px;
     display: inline-block;
     border: black solid;
-    width: 450px;
-    height: 250px;
+    width: 350px;
+    height: 150px;
     text-align: center;
+}
+
+.projetos {
+    margin-left: 125px;
+}
+
+.title_habilidades {
+    margin-top: 70px;
+    margin-left: 215px;
 }
