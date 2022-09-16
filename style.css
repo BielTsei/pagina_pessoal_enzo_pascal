@@ -244,24 +244,56 @@ body section svg {
 /* ---------------------- Inicio "Habilidades" ----------------------*/
 
 section:nth-child(4) {
-    background-color: rgba(255, 0, 0, 0.199);
+    background-color: white;
     width: 1519px;
     height: 720px;
-    display:inline-block;
-    margin: auto;
+    /*display:inline-block;*/
+    margin: 0px auto;
 }
 
+.habilidades {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    padding-left: 125px;
+    padding-right: 40;
+    padding-top:50px;
 
+}
 
+.check svg {
+    position: relative;
+    top: 4px;
+}
 
+.check { 
+    display: inline-block;
+    font-size: 25px;
+    color:black;
+    margin-right: 140px;
+    margin-bottom: 45px;
+    width: 320px;
+    height: 250px;
+    /*background-color: #aca5bd0f;*/
+    background-color: red;
+    border-radius:25px;
+    text-align:center;
+    box-sizing: border-box;
+    padding: 7px 30px 7px 30px;
+    line-height: 25px;
+}
 
+.check p {
+    font-size:16px;
+    color:black;
+    text-align:left;
+}
 
-
-
-
-
-
-
+.text_habilidades {
+    display: inline-block;
+    padding-bottom:23px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
 
 
 
@@ -295,7 +327,7 @@ section:nth-child(4) {
     display: flex;
     letter-spacing: 1.5px;
     word-spacing: 2.5px;
-    margin-left:124px;
+    margin-left:px;
     margin: 0px;
     text-align:center;
 }
