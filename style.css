@@ -249,7 +249,7 @@ body section svg {
 section:nth-child(4) {
     background-color: #F9F9F9;
     width: 1519px;
-    height: 720px;
+    height: 1005px;
     /*display:inline-block;*/
     margin: 0px auto;
 }
@@ -259,6 +259,7 @@ section:nth-child(4) {
     margin-left: 122px;
     box-sizing: border-box;
     padding-top: 40px;
+    color:#00a78e;
 }
 .habilidades {
     font-family: 'Montserrat';
@@ -278,7 +279,7 @@ section:nth-child(4) {
 .check { 
     display: inline-block;
     font-size: 25px;
-    color:black;
+    color:#00a78e ;
     margin-right: 140px;
     margin-bottom: 45px;
     width: 320px;
@@ -295,7 +296,7 @@ section:nth-child(4) {
 .check p {
     font-size:16px;
     color:black;
-    text-align:left;
+    text-align:end;
 }
 
 .text_habilidades {
@@ -328,24 +329,42 @@ section:nth-child(4) {
     display: inline-block;
     width: 180px;
     height: 45px;
-    margin: 20px 0px 0px 122px; 
+    margin: 48px 0px 33px 122px; 
     font-size: 38px;
-    color: #261447;
+    color: #00a78e;
 }
 
 .text_projetos {
     display: flex;
     letter-spacing: 1.5px;
     word-spacing: 2.5px;
-    margin-left:px;
     margin: 0px;
-    text-align:center;
+    font-size:16px;
+    color:#272727;
+    text-align:end;
+    box-sizing: border-box;
+    padding-top: 45px;
 }
+
+.text_projetos1 {
+    display: flex;
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+    margin: 0px;
+    font-size:16px;
+    color:#272727;
+    text-align:end;
+    box-sizing: border-box;
+    padding-bottom: 45px;
+}
+
+
 .title_box {
     margin-top: 15px;
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
     text-align: center;
+    color:white ;
 }
 
 .box {
@@ -354,6 +373,28 @@ section:nth-child(4) {
     position: relative;
     height: 720px;
 }
+
+.box_projetos {
+    display: inline-block;
+    margin-left: 125px;
+    margin-right: 15px;
+    margin-bottom: 45px;
+    width: 320px;
+    height: 330px;
+    background-color: #00a78e;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px 0px rgb(196 196 196 / 30%);
+    /*text-align:center;*/
+    box-sizing: border-box;
+    padding: 7px 30px 7px 30px;
+    line-height: 25px;
+}
+
+/*.box_projetos p {
+    font-size:16px;
+    color:#272727;
+    text-align:left;
+}*/
 
 /*.box_projetos {
     display: inline-block;
