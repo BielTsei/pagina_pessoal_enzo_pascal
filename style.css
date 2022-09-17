@@ -6,7 +6,7 @@
 /* ---------------- cabeçalho ----------------*/
 
 header {
-    background-color: #aca5bd0f;
+    /*background-color: #aca5bd0f;*/
     margin:  0px auto;
     display: flex;
     font-family: 'Montserrat';
@@ -57,6 +57,7 @@ body {
 }
 
 .fundo {
+    background-color: #F9F9F9;
     background-image: url(Página\ 1.svg);
     background-size: 1520px;
     position: relative;
@@ -233,6 +234,8 @@ body section:nth-child(3) {
 .icons {
     display: flex;
     margin: 50px auto;
+    filter:drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.418));
+    
 }
 
 body section svg {
@@ -317,25 +320,7 @@ section:nth-child(4) {
     background-color: #00a78e;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ---------------------- fim de "Habilidades" ----------------------*/
 
 /* ---------------------- inicio "Projetos" ----------------------*/
 
